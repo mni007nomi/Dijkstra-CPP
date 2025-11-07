@@ -1,0 +1,134 @@
+"Portland ME" "Boston MA" I95 150
+"Boston MA" "New York City NY" I95 180
+"New York City NY" "Philadelphia PA" I95 90
+"Philadelphia PA" "Washington DC" I95 120
+"Washington DC" "Richmond VA" I95 75
+"Richmond VA" "Raleigh NC" I95 150
+"Raleigh NC" "Columbia SC" I95 180
+"Columbia SC" "Savannah GA" I95 120
+"Savannah GA" "Jacksonville FL" I95 120
+"Jacksonville FL" "Daytona Beach FL" I95 90
+"Daytona Beach FL" "Miami FL" I95 195
+"Billings MN" "Fargo ND" I94 450
+"Fargo ND" "Minneapolis/St Paul MN" I94 210
+"Minneapolis/St Paul MN" "Milwaukee WI" I94 210
+"Boston MA" "Albany NY" I90 120
+"Albany NY" "Syracuse NY" I90 120
+"Syracuse NY" "Rochester NY" I90 86
+"Rochester NY" "Buffalo NY" I90 73
+"Buffalo NY" "Cleveland OH" I90 191
+"Cleveland OH" "Detroit MI" I90 120
+"Detroit MI" "Chicago IL" I90 180
+"Chicago IL" "Milwaukee WI" I90 135
+"Milwaukee WI" "Rochester MN" I90 180
+"Rochester MN" "Sioux Falls SD" I90 150
+"Sioux Falls SD" "Billings MN" I90 540
+"Billings MN" "Butte MN" I90 180
+"Butte MN" "Seattle WA" I90 435
+"Burlington VT" "Boston MA" I89 180
+"Burlington VT" "Albany NY" I87 135
+"Albany NY" "New York City NY" I87 105
+"Richmond VA" "Charlotte NC" I85 180
+"Charlotte NC" "Atlanta GA" I85 210
+"Atlanta GA" "Mobile AL" I85 285
+"Portland OR" "Boise ID" I84 390
+"Boise ID" "Salt Lake City UT" I84 180
+"Harrisburg PA" "Washington DC" I83 135
+"Seattle WA" "Boise ID" I82 420
+"Syracuse NY" "Harrisburg PA" I81 165
+"Harrisburg PA" "Charleston WV" I81 225
+"Charleston WV" "Knoxville TN" I81 225
+"San Francisco CA" "Salt Lake City UT" I80 540
+"Salt Lake City UT" "Cheyenne WY" I80 330
+"Cheyenne WY" "Omaha NE" I80 390
+"Omaha NE" "Des Moines IA" I80 135
+"Des Moines IA" "Chicago IL" I80 255
+"Harrisburg PA" "New York City NY" I78 180
+"Cleveland OH" "Charleston WV" I77 195
+"Cleveland OH" "Harrisburg PA" I76 180
+"Harrisburg PA" "Philadelphia PA" I76 120
+"Saginaw MI" "Detroit MI" I75 105
+"Detroit MI" "Cinncinnati OH" I75 120
+"Cinncinnati OH" "Lexington KY" I75 120
+"Lexington KY" "Knoxville TN" I75 120
+"Knoxville TN" "Atlanta GA" I75 120
+"Atlanta GA" "Tallahassee FL" I75 240
+"Tallahassee FL" "Tampa FL" I75 165
+"Tampa FL" "Miami FL" I75 180
+"Provo UT" "Denver CO" I70 330
+"Denver CO" "Kansas City MO" I70 510
+"Kansas City MO" "St Louis MO" I70 210
+"St Louis MO" "Indianapolis IN" I70 210
+"Indianapolis IN" "Cinncinnati OH" I70 120
+"Cinncinnati OH" "Cleveland OH" I70 135
+"Chicago IL" "Indianapolis IN" I65 105
+"Indianapolis IN" "Louisville KY" I65 135
+"Louisville KY" "Nashville TN" I65 120
+"Nashville TN" "Birmingham AL" I65 150
+"Birmingham AL" "Mobile AL" I65 195
+"St Louis MO" "Louisville KY" I64 225
+"Louisville KY" "Lexington KY" I64 75
+"Lexington KY" "Charleston WV" I64 165
+"Charleston WV" "Richmond VA" I64 165
+"New Orleans LA" "Birmingham AL" I59 300
+"Chicago IL" "St Louis MO" I55 225
+"St Louis MO" "Memphis TN" I55 195
+"Memphis TN" "Jackson MS" I55 180
+"Jackson MS" "New Orleans LA" I55 150
+"Houston TX" "Dallas/Ft Worth TX" I45 180
+"Green Bay WI" "Milwaukee WI" I43 120
+"Las Vegas NE" "Flagstaff/Grand Canyon AZ" I40 180
+"Flagstaff/Grand Canyon AZ" "Albuquerque NM" I40 270
+"Albuquerque NM" "Amarillo TX" I40 270
+"Amarillo TX" "Oklahoma City OK" I40 225
+"Oklahoma City OK" "Little Rock AR" I40 240
+"Little Rock AR" "Memphis TN" I40 150
+"Memphis TN" "Nashville TN" I40 180
+"Nashville TN" "Knoxville TN" I40 120
+"Knoxville TN" "Charlotte NC" I40 225
+"Charlotte NC" "Raleigh NC" I40 120
+"San Antonio TX" "Corpus Christi TX" I37 150
+"Duluth MN" "Minneapolis/St Paul MN" I35 135
+"Minneapolis/St Paul MN" "Rochester MN" I35 105
+"Rochester MN" "Des Moines IA" I35 120
+"Des Moines IA" "Kansas City MO" I35 165
+"Kansas City MO" "Oklahoma City OK" I35 225
+"Oklahoma City OK" "Dallas/Ft Worth TX" I35 210
+"Dallas/Ft Worth TX" "San Antonio TX" I35 240
+"San Antonio TX" "Laredo TX" I35 150
+"Dallas/Ft Worth TX" "Little Rock AR" I30 270
+"Fargo ND" "Sioux Falls SD" I29 240
+"Sioux Falls SD" "Omaha NE" I29 120
+"Omaha NE" "Kansas City MO" I29 165
+"Amarillo TX" "Lubbock TX" I27 105
+"Billings MN" "Cheyenne WY" I25 360
+"Cheyenne WY" "Denver CO" I25 90
+"Denver CO" "Albuquerque NM" I25 285
+"Albuquerque NM" "El Paso TX" I25 240
+"El Paso TX" "Dallas/Ft Worth TX" I20 495
+"Dallas/Ft Worth TX" "Jackson MS" I20 345
+"Jackson MS" "Birmingham AL" I20 165
+"Birmingham AL" "Atlanta GA" I20 150
+"Atlanta GA" "Columbia SC" I20 180
+"Flagstaff/Grand Canyon AZ" "Phoenix AZ" I17 120
+"Atlanta GA" "Savannah GA" I16 180
+"Great Falls MN" "Butte MN" I15 135
+"Butte MN" "Salt Lake City UT" I15 300
+"Salt Lake City UT" "Provo UT" I15 120
+"Provo UT" "Las Vegas NE" I15 240
+"Las Vegas NE" "Los Angeles CA" I15 210
+"Los Angeles CA" "Phoenix AZ" I10 315
+"Phoenix AZ" "Tucson AZ" I10 120
+"Tucson AZ" "El Paso TX" I10 240
+"El Paso TX" "San Antonio TX" I10 420
+"San Antonio TX" "Houston TX" I10 225
+"Houston TX" "New Orleans LA" I10 225
+"New Orleans LA" "Mobile AL" I10 150
+"Mobile AL" "Tallahassee FL" I10 225
+"Tallahassee FL" "Jacksonville FL" I10 105
+"San Diego CA" "Tucson AZ" I8 345
+"Seattle WA" "Portland OR" I5 195
+"Portland OR" "San Francisco CA" I5 450
+"San Francisco CA" "Los Angeles CA" I5 330
+"Los Angeles CA" "San Diego CA" I5 90
+"Tampa FL" "Daytona Beach FL" I4 105
