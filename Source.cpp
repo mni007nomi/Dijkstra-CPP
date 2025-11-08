@@ -244,6 +244,36 @@ bool checkDuplicate(vector<int>& nodes, int nodeIndex) {
 	return duplicate;
 }
 
+void exportMatlabScript(Graph& graph) {
+	string filename = "graphCities.m"; //Compliant to MATLAB2016a 
+	ofstream outputStream;
+	outputStream.open(filename.c_str(), ios::app | ios::out);
+
+	outputStream << "sources = zeros(1," << graph.getEdges().size() << ");" << endl;
+	outputStream << "destinations = zeros(1," << graph.getEdges().size() << ");" << endl;
+	outputStream << "weights = zeros(1," << graph.getEdges().size() << ");" << endl;
+
+	for (int i = 0; i < graph.getNodes().size(); i++) {
+		outputStream << "names{" << (i + 1) << "} = '" << graph.getNodes()[i].getNodeLabel() << "';" << endl;
+	}
+
+	for (int i = 0; i < graph.getEdges().size(); i++) {
+		outputStream << "sources(" << (i + 1) << ") = " << (graph.getEdges()[i].getSourceNodeIndex() + 1) << ";" << endl;
+		outputStream << "destinations(" << (i + 1) << ") = " << (graph.getEdges()[i].getDestinationNodeIndex() + 1) << ";" << endl;
+		outputStream << "weights(" << (i + 1) << ") = " << graph.getEdges()[i].getEdgeCost() << ";" << endl;
+		outputStream << "routes{" << (i + 1) << "} = '" << graph.getEdges()[i].getEdgeLabel() << " | " 
+			<< graph.getEdges()[i].getEdgeCost() << "';" << endl;
+	}
+
+	outputStream << "G = graph(sources,destinations,weights,names);" << endl;
+	outputStream << "LineWidths = 2.5*G.Edges.Weight / max(G.Edges.Weight);" << endl;
+	outputStream << "h = plot(G,'LineWidth',LineWidths);" << endl;
+	outputStream << "[T, p] = minspantree(G);" << endl;
+	outputStream << "highlight(h,T,'EdgeColor','m','LineWidth',1.5,'Marker','.','NodeColor','r','MarkerSize',20,'LineStyle','-');" << endl;
+	outputStream << "labeledge(h,sources,destinations,routes);" << endl;
+	outputStream.close();
+}
+
 void tracePath(Graph& graph, int sourceNodeIndex, int destinationNodeIndex) {
 	vector<pair<int, int>> hops;
 
