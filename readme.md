@@ -70,6 +70,14 @@ A to D: 9 miles.
 
 ---
 
+### 🧩 Export to MATLAB  
+---
+The `exportMatlabScript()` function enables seamless **graph visualization in MATLAB** by generating a ready-to-run script named `graphCities.m`.  
+This script defines all nodes, edges, and weights, and uses MATLAB’s built-in `graph()` and `plot()` functions to create a clear graphical representation of your network.  
+Additionally, it highlights the **minimum spanning tree (MST)** for visual clarity, making it an excellent tool to connect your **C++ implementation** with **MATLAB-based analysis and visualization**.
+
+---
+
 ## 🧩 File Structure
 
 ```
